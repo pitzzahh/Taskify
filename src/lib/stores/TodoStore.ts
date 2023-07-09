@@ -16,4 +16,4 @@ export const removeTodo = (id: string) => todos.update((current) => current.filt
 
 export const toggleTodo = (id: string) => todos.update((current) => current.map(todo => todo.id === id ? { ...todo, completed: !todo.completed } : todo));
 
-export const editTodo = (id: string, newTodo: string) => todos.update((current) => current.map(todo => todo.id === id ? { ...todo, newTodo} : todo));
+export const editTodo = (id: string, newTodo: string) => todos.update((currentTodos) => currentTodos.map((todo) => todo.id === id ? { ...todo, text: newTodo } : todo));
