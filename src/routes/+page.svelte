@@ -4,6 +4,22 @@
 	import ProgressSection from '$lib/components/progress/ProgressSection.svelte';
 </script>
 
+<svelte:head>
+	<title>Taskify</title>
+	<meta
+		name="description"
+		content="A sleek and intuitive task management app designed to help users stay organized and focused."
+	/>
+	<meta name="keywords" content="todo list, todoapp" />
+	<meta name="author" content="Peter John Arao" />
+	<meta name="og:title" content="Taskify" />
+	<meta
+		name="og:description"
+		content="A sleek and intuitive task management app designed to help users stay organized and focused."
+	/>
+	<meta property="og:site_name" content="Taskify" />
+</svelte:head>
+
 <div class="min-h-screen bg-olive-one p-0 selection:bg-green-two md:py-24 md:px-8">
 	<main
 		class="mx-auto min-h-screen max-w-none rounded-none bg-cream-four px-5 py-10 outline-none
