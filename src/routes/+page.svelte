@@ -27,10 +27,7 @@
 	>
 		<h1 class="text-3xl font-bold text-gray-three">Taskify</h1>
 		<p class="font-medium text-gray-five my-3">
-			Taskify is a sleek and intuitive task management app designed to help users stay organized and
-			focused. With its user-friendly interface and powerful features, Taskify allows you to easily
-			create, prioritize, and track your tasks in one place. From personal to professional tasks,
-			Taskify streamlines your productivity and empowers you to achieve your goals with ease.
+			A sleek and intuitive task management app designed to help users stay organized and focused.
 		</p>
 		<div class="mt-10">
 			<AddTodoSection />
