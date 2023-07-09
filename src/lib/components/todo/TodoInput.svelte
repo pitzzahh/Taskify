@@ -43,7 +43,7 @@
 			width="32"
 			height="32"
 			xmlns="http://www.w3.org/2000/svg"
-			class="h-6 w-6 text-steel-three group-hover:text-gray-five"
+			class="h-6 w-6 group-hover:text-error-dark"
 			><g id="SVGRepo_bgCarrier" stroke-width="0" /><g
 				id="SVGRepo_tracerCarrier"
 				stroke-linecap="round"

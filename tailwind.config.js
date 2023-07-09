@@ -10,6 +10,9 @@ export default {
 			}
 		},
     colors: {
+			error: {
+				dark: "red"
+			},
 			green: {
 				one: '#E7F3EF',
 				two: '#DDEEE9',
